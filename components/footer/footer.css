@@ -1,0 +1,41 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-inner {
+  display: flex;
+  height: 20dvh;
+  background-color: rgb(3, 144, 252);
+}
+
+.footer-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.logo-footer {
+  width: 60px;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+  .logo-footer {
+    width: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-footer {
+    width: 35px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-inner {
+    height: 12dvh;
+  }
+}

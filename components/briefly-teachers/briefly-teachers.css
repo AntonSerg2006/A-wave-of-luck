@@ -1,0 +1,53 @@
+.briefly-teachers-inner {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+
+.briefly-teachers-my-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+}
+
+.briefly-teachers-img-part {
+  display: flex;
+  width: 100%;
+  max-width: 800px;
+}
+
+.briefly-teachers-img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.briefly-teachers-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+  .briefly-teachers-text {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .briefly-teachers-my-container {
+    gap: 0px;
+    flex-direction: column;
+  }
+
+  .briefly-teachers-img {
+    border-radius: 20px;
+  }
+}

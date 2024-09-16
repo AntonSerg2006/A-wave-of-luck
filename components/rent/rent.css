@@ -1,0 +1,78 @@
+.rent {
+  display: flex;
+  flex-direction: column;
+}
+
+.rent-inner {
+  height: fit-content;
+}
+
+.rent-block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rent-card-block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  width: 100%;
+}
+
+.home-icon {
+  margin: 5px;
+  width: 30px;
+}
+
+.part-rent-card {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+  margin-bottom: 30px;
+}
+
+.rent-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  gap: 20px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.rent-img {
+  width: 100%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.product-name {
+  width: 90%;
+}
+
+.rental-price {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+  .part-rent-card {
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+}

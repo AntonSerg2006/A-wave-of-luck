@@ -1,0 +1,121 @@
+.services-inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(248, 248, 248, 1);
+  height: fit-content;
+  gap: 100px;
+}
+
+.service-my-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-services {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 74px;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 350px;
+  gap: 15px;
+}
+
+.info-block-top {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  gap: 10px;
+}
+
+.icon {
+  height: 54px;
+}
+
+.advantages {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 230px;
+}
+
+.percentage-advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.wave {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.wave-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brief-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  gap: 30px;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+  .services-inner {
+    margin: 10px;
+  }
+
+  .info-services {
+    gap: 20px;
+  }
+
+  .icon {
+    height: 50px;
+  }
+
+  .advantages {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .advantages {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .icon {
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-inner {
+    gap: 80px;
+  }
+
+  .info-services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .percentage-advantages {
+    display: none;
+  }
+}

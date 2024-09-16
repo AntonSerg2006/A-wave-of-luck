@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.white {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  width: 100%;
+}
+
+.home-icon {
+  width: fit-content;
+  color: black;
+  margin: 5px 0px 0px 5px;
+}
+
+.text {
+  font-family: "Roboto Condensed";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  user-select: none;
+}
+
+.title {
+  font-family: "Raleway";
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: rgba(1, 53, 62, 1);
+}
+
+.rent-title {
+  font-family: "Raleway";
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  color: rgba(1, 53, 62, 1);
+}
+
+.card-title-and-price {
+  font-family: "Roboto Condensed";
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: rgba(36, 33, 33, 1);
+}
+
+.text-fields {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: rgb(3, 144, 252);
+}
+
+.text-rent {
+  font-family: "Roboto Condensed";
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+}
+
+.medium-text {
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: rgba(36, 33, 33, 1);
+}
+
+.small-text {
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+  color: rgba(36, 33, 33, 1);
+}
+
+.wand {
+  font-family: "Raleway";
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 84.53px;
+  letter-spacing: 0.6px;
+  color: rgb(3, 144, 252);
+  user-select: none;
+}
+
+.text-title {
+  position: relative;
+  margin: 40px 0px 40px 0px;
+}
+
+.wand-position {
+  position: absolute;
+  right: -25px;
+  top: 5px;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+  .text {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 38px;
+  }
+
+  .medium-text {
+    font-size: 14px;
+  }
+
+  .small-text {
+    font-size: 13px;
+  }
+
+  .card-title-and-price {
+    font-size: 32px;
+  }
+
+  .wand {
+    font-size: 40px;
+  }
+  .wand-position {
+    top: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .text {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .medium-text {
+    font-size: 12px;
+  }
+
+  .small-text {
+    font-size: 12px;
+  }
+
+  .card-title-and-price {
+    font-size: 24px;
+  }
+
+  .text-fields {
+    font-size: 14px;
+  }
+
+  .wand {
+    font-size: 30px;
+  }
+
+  .wand-position {
+    right: -15px;
+    top: -10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 23px;
+  }
+
+  .small-text {
+    font-size: 12px;
+  }
+
+  .wand {
+    font-size: 24px;
+  }
+
+  .wand-position {
+    right: -14px;
+    top: -20px;
+  }
+}

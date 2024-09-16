@@ -1,0 +1,136 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts-inner {
+  display: flex;
+  height: fit-content;
+}
+
+.contacts-block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contacts-info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 80px;
+}
+
+.data-entry {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  gap: 20px;
+}
+
+.address-and-contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgba(248, 248, 248, 1);
+}
+
+.address-and-contacts-text {
+  display: flex;
+  gap: 50px;
+  width: 80%;
+  flex-direction: column;
+}
+
+.name,
+.telephone,
+.textarea {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgba(218, 218, 218, 1);
+}
+
+.textarea {
+  height: 100px;
+  resize: none;
+}
+
+.social-networks {
+  display: flex;
+  margin-top: 100px;
+  gap: 40px;
+}
+
+.soc-net {
+  transition: 0.3s;
+}
+
+.soc-net:hover {
+  color: rgb(3, 144, 252);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.none {
+  display: none;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+}
+
+@media (max-width: 768px) {
+  .contacts-info {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .data-entry {
+    max-width: 400px;
+  }
+
+  .social-networks {
+    margin: 40px 0px 40px 0px;
+  }
+
+  .exist {
+    display: none;
+  }
+
+  .none {
+    display: block;
+    width: 50%;
+  }
+
+  .address-and-contacts {
+    max-width: 350px;
+  }
+
+  .address-and-contacts-text {
+    gap: 10px;
+    width: 80%;
+    margin: 20px 0px 20px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .data-entry {
+    max-width: 270px;
+  }
+
+  .address-and-contacts {
+    max-width: 270px;
+  }
+
+  .social-networks {
+    gap: 10px;
+  }
+}

@@ -1,0 +1,79 @@
+.price {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-inner {
+  height: fit-content;
+  background: rgba(248, 248, 248, 1);
+}
+
+.price-block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(248, 248, 248, 1);
+}
+
+.price-card-block {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 360px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.line-height {
+  line-height: 2.5;
+}
+
+.header-card,
+.price-card {
+  margin: 45px 0px 45px 0px;
+}
+
+.text-card {
+  margin: 0px 5px 0px 5px;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+  .price-card-block {
+    gap: 20px;
+  }
+
+  .card {
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 768px) {
+  .price-card-block {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    margin: 0px 15px 15px 15px;
+  }
+
+  .text-card {
+    margin: 0px;
+  }
+}

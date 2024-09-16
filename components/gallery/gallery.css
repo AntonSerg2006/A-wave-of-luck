@@ -1,0 +1,58 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-inner {
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+.gallery-block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  gap: 20px;
+}
+
+.surfing-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.photo-selection {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.photo-selection p {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.photo-selection p:hover {
+  transition: 0.5s;
+  color: rgb(3, 144, 252);
+}
+
+.photo {
+  width: 100%;
+  max-width: 200px;
+}
+
+.photo-wide {
+  width: 100%;
+  max-width: 400px;
+}

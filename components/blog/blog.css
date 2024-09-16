@@ -1,0 +1,88 @@
+.blog-inner {
+  height: fit-content;
+  margin-bottom: 40px;
+}
+
+.blog-block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-posting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.blog-text {
+  width: 50%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.luggage-block {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.luggage-right {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  gap: 80px;
+}
+
+.luggage-left {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  gap: 80px;
+}
+
+.blog-img-left {
+  width: 50%;
+  border-radius: 0px 50px 50px 0px;
+}
+
+.blog-img-right {
+  width: 50%;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.blog-info {
+  max-width: 500px;
+  width: 100%;
+}
+
+/*Адаптив*/
+
+@media (max-width: 768px) {
+  .blog-text {
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .luggage-left {
+    flex-direction: column;
+    gap: 20px;
+    margin: 0px 10px 0px 10px;
+  }
+
+  .luggage-right {
+    display: none;
+  }
+
+  .blog-img-left {
+    width: 80%;
+    border-radius: 40px 0px 40px 0px;
+  }
+}

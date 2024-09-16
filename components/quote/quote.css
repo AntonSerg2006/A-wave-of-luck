@@ -1,0 +1,66 @@
+.quote-inner {
+  display: flex;
+  align-items: center;
+  height: 40dvh;
+}
+
+.quote-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(248, 248, 248, 1);
+}
+
+.text-quote {
+  font-family: "Roboto Condensed";
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.6px;
+}
+
+.author {
+  font-family: "Roboto Condensed";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 18px;
+  letter-spacing: 0.6px;
+}
+
+/*Адаптив*/
+
+@media (max-width: 1000px) {
+  .text-quote {
+    font-size: 32px;
+  }
+
+  .author {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .quote-inner {
+    height: 30dvh;
+  }
+
+  .text-quote {
+    text-align: center;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .text-quote {
+    font-size: 18px;
+  }
+
+  .author {
+    font-size: 10px;
+  }
+}
